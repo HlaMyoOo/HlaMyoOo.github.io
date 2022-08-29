@@ -1,3 +1,11 @@
+git init 
 git status
-git branch
 git log
+git log --oneline
+git add .
+git commit -m "my first commit"
+git restore .
+git reset --hard 9090320
+git commit -am "added and commit"
+git reset --mixed "48938"
+git reset --soft "48938"
